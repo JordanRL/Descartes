@@ -1,0 +1,54 @@
+{
+  "name": "samsara/descartes",
+  "type": "library",
+  "description": "A framework for running simulations in PHP.",
+  "keywords": ["framework", "simulation"],
+  "homepage": "https://jordanrl.github.io/Descartes/",
+  "funding": [
+    {
+      "type": "github",
+      "url": "https://github.com/sponsors/JordanRL"
+    }
+  ],
+  "support": {
+    "issues": "https://github.com/JordanRL/Descartes/issues",
+    "docs": "https://jordanrl.github.io/Descartes/",
+    "source": "https://github.com/JordanRL/Descartes"
+  },
+  "authors": [
+    {
+      "name": "Jordan LeDoux",
+      "homepage": "https://github.com/JordanRL",
+      "role": "Developer"
+    }
+  ],
+  "license": "GPL-3.0-only",
+  "require": {
+    "samsara/common": "^1",
+    "samsara/fermat": "^2",
+    "samsara/fermat-stats": "^1",
+    "php-ds/php-ds": "^1.1",
+    "react/event-loop": "^1.2",
+    "react/stream": "^1.1",
+    "php": ">=8.0"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "9.*",
+    "phpbench/phpbench": "^1",
+    "samsara/roster": "^0.1"
+  },
+  "suggest": {
+    "ext-event": "*",
+    "ext-ds": "*"
+  },
+  "autoload": {
+    "psr-4": {
+      "Samsara\\Descartes\\": "src/Samsara/Descartes/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Samsara\\Descartes\\": "tests/Samsara/Descartes/"
+    }
+  }
+}
